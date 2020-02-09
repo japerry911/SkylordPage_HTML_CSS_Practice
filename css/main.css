@@ -7,28 +7,49 @@ body {
   background: #F78E17;
   text-align: center;
   padding: 5px;
+  text-align: center;
 }
 
-.sky_main_image {
-  margin-left: 2%;
+.header2 {
+  text-align: center;
+  padding: 5px;
+  text-align: center;
+}
+
+.sky_image_main {
+  margin-left: 10%;
   margin-right: 0;
-  margin-top: 4%;
-  height: 15%;
-  width: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  height: 25%;
+  width: 25%;
   padding: 0;
   border-radius: 100%;
   border: 2pt solid #F78E17;
 }
 
-.horizontal_div {
-  display: flex;
+.sky_image_emoji {
+  margin-left: 5%;
+  margin-right: 0;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 25%;
+  width: 37%;
+  border-radius: 25%;
+  border: 2pt solid #F78E17;
 }
 
-.left_picture {
+.main_div {
+  display: table;
+  clear: both;
+}
+
+.left_side {
   word-wrap: break-word;
-  width: 55%;
-  padding-left: 10%;
+  width: 50%;
+  padding-left: 5%;
   padding-right: 0%;
+  float: left;
 }
 
 div > p {
@@ -51,6 +72,11 @@ q ~ footer {
   text-align: center;
 }
 
-.sky_main_image:hover {
+.main_div img:hover {
   border: 2pt solid black;
+}
+
+.right_side {
+  float: left;
+  width: 45%;
 }
