@@ -4,7 +4,53 @@ body {
 }
 
 .header {
-  background: #F6C18C;
+  background: #F78E17;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
+}
+
+.sky_main_image {
+  margin-left: 2%;
+  margin-right: 0;
+  margin-top: 4%;
+  height: 15%;
+  width: 15%;
+  padding: 0;
+  border-radius: 100%;
+  border: 2pt solid #F78E17;
+}
+
+.horizontal_div {
+  display: flex;
+}
+
+.left_picture {
+  word-wrap: break-word;
+  width: 55%;
+  padding-left: 10%;
+  padding-right: 0%;
+}
+
+div > p {
+  font-size: 12pt;
+  text-indent: 70px;
+}
+
+* {
+  font-family: 'Alatac, Athiti';
+}
+
+.center_quote {
+  font-style: italic;
+  text-align: center;
+}
+
+q ~ footer {
+  padding-top: 10px;
+  font-style: normal;
+  text-align: center;
+}
+
+.sky_main_image:hover {
+  border: 2pt solid black;
 }
